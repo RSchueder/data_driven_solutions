@@ -1,0 +1,5051 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>wq_streamflow_stations.kml</name>
+	<open>1</open>
+	<StyleMap id="IconStyle00">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#IconStyle001</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#IconStyle004</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="s_ylw-pushpin16">
+		<IconStyle>
+			<scale>0.6</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/placemark_square.png</href>
+			</Icon>
+		</IconStyle>
+		<LabelStyle>
+			<scale>0.6</scale>
+		</LabelStyle>
+	</Style>
+	<Style id="IconStyle001">
+		<IconStyle>
+			<color>ff00ffff</color>
+			<scale>0.9</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+			</Icon>
+		</IconStyle>
+		<LabelStyle>
+			<scale>0.5</scale>
+		</LabelStyle>
+		<PolyStyle>
+			<color>ff000000</color>
+			<outline>0</outline>
+		</PolyStyle>
+	</Style>
+	<Style id="IconStyle000">
+		<IconStyle>
+			<color>ff00ffff</color>
+			<scale>0.9</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle_highlight.png</href>
+			</Icon>
+		</IconStyle>
+		<LabelStyle>
+			<scale>0.5</scale>
+		</LabelStyle>
+		<PolyStyle>
+			<color>ff000000</color>
+			<outline>0</outline>
+		</PolyStyle>
+	</Style>
+	<Style id="s_ylw-pushpin_hl14">
+		<IconStyle>
+			<scale>0.709091</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/placemark_square_highlight.png</href>
+			</Icon>
+		</IconStyle>
+		<LabelStyle>
+			<scale>0.6</scale>
+		</LabelStyle>
+	</Style>
+	<Style id="IconStyle002">
+		<IconStyle>
+			<color>ff00ffff</color>
+			<scale>0.9</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+			</Icon>
+		</IconStyle>
+		<LabelStyle>
+			<scale>0.5</scale>
+		</LabelStyle>
+		<PolyStyle>
+			<color>ff000000</color>
+			<outline>0</outline>
+		</PolyStyle>
+	</Style>
+	<StyleMap id="m_ylw-pushpin13">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#s_ylw-pushpin16</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#s_ylw-pushpin_hl14</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="IconStyle004">
+		<IconStyle>
+			<color>ff00ffff</color>
+			<scale>0.9</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle_highlight.png</href>
+			</Icon>
+		</IconStyle>
+		<LabelStyle>
+			<scale>0.5</scale>
+		</LabelStyle>
+		<PolyStyle>
+			<color>ff000000</color>
+			<outline>0</outline>
+		</PolyStyle>
+	</Style>
+	<StyleMap id="IconStyle003">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#IconStyle002</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#IconStyle000</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Folder id="FeatureLayer0">
+		<name>boss_lenie_wq</name>
+		<open>1</open>
+		<Snippet maxLines="0"></Snippet>
+		<Placemark id="ID_00000">
+			<name>Bagumbayan</name>
+			<Snippet maxLines="0"></Snippet>
+			<description><![CDATA[<html xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+
+<head>
+
+<META http-equiv="Content-Type" content="text/html">
+
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+
+</head>
+
+<body style="margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;">
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px">
+
+<tr style="text-align:center;font-weight:bold;background:#9CBCE2">
+
+<td>Bagumbayan</td>
+
+</tr>
+
+<tr>
+
+<td>
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px">
+
+<tr>
+
+<td>FID</td>
+
+<td>0</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>NAME</td>
+
+<td>Bagumbayan</td>
+
+</tr>
+
+<tr>
+
+<td>DESCRIPTIO</td>
+
+<td>Bagumbayan</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>STATION2</td>
+
+<td>TR</td>
+
+</tr>
+
+<tr>
+
+<td>SAMP_ID</td>
+
+<td>2</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>ID_STN</td>
+
+<td>2-Bagumbayan</td>
+
+</tr>
+
+<tr>
+
+<td>X</td>
+
+<td>290496</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>Y</td>
+
+<td>1600265</td>
+
+</tr>
+
+</table>
+
+</td>
+
+</tr>
+
+</table>
+
+</body>
+
+</html>]]></description>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<coordinates>121.0563210116224,14.46701626937411,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="ID_00001">
+			<name>Dela Paz</name>
+			<Snippet maxLines="0"></Snippet>
+			<description><![CDATA[<html xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+
+<head>
+
+<META http-equiv="Content-Type" content="text/html">
+
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+
+</head>
+
+<body style="margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;">
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px">
+
+<tr style="text-align:center;font-weight:bold;background:#9CBCE2">
+
+<td>Dela Paz</td>
+
+</tr>
+
+<tr>
+
+<td>
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px">
+
+<tr>
+
+<td>FID</td>
+
+<td>1</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>NAME</td>
+
+<td>Dela Paz</td>
+
+</tr>
+
+<tr>
+
+<td>DESCRIPTIO</td>
+
+<td>Biñan</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>STATION2</td>
+
+<td>TR</td>
+
+</tr>
+
+<tr>
+
+<td>SAMP_ID</td>
+
+<td>7</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>ID_STN</td>
+
+<td>7-Biñan</td>
+
+</tr>
+
+<tr>
+
+<td>X</td>
+
+<td>293716</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>Y</td>
+
+<td>1587836</td>
+
+</tr>
+
+</table>
+
+</td>
+
+</tr>
+
+</table>
+
+</body>
+
+</html>]]></description>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<coordinates>121.0871407821682,14.35494496711093,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="ID_00002">
+			<name>Buli</name>
+			<Snippet maxLines="0"></Snippet>
+			<description><![CDATA[<html xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+
+<head>
+
+<META http-equiv="Content-Type" content="text/html">
+
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+
+</head>
+
+<body style="margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;">
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px">
+
+<tr style="text-align:center;font-weight:bold;background:#9CBCE2">
+
+<td>Buli</td>
+
+</tr>
+
+<tr>
+
+<td>
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px">
+
+<tr>
+
+<td>FID</td>
+
+<td>2</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>NAME</td>
+
+<td>Buli</td>
+
+</tr>
+
+<tr>
+
+<td>DESCRIPTIO</td>
+
+<td>Buli</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>STATION2</td>
+
+<td>TR</td>
+
+</tr>
+
+<tr>
+
+<td>SAMP_ID</td>
+
+<td>3</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>ID_STN</td>
+
+<td>3-Buli</td>
+
+</tr>
+
+<tr>
+
+<td>X</td>
+
+<td>289860</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>Y</td>
+
+<td>1597844</td>
+
+</tr>
+
+</table>
+
+</td>
+
+</tr>
+
+</table>
+
+</body>
+
+</html>]]></description>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<coordinates>121.0506137002316,14.44509037360257,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="ID_00003">
+			<name>Bigaa</name>
+			<Snippet maxLines="0"></Snippet>
+			<description><![CDATA[<html xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+
+<head>
+
+<META http-equiv="Content-Type" content="text/html">
+
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+
+</head>
+
+<body style="margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;">
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px">
+
+<tr style="text-align:center;font-weight:bold;background:#9CBCE2">
+
+<td>Bigaa</td>
+
+</tr>
+
+<tr>
+
+<td>
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px">
+
+<tr>
+
+<td>FID</td>
+
+<td>3</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>NAME</td>
+
+<td>Bigaa</td>
+
+</tr>
+
+<tr>
+
+<td>DESCRIPTIO</td>
+
+<td>Cabuyao</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>STATION2</td>
+
+<td>TR</td>
+
+</tr>
+
+<tr>
+
+<td>SAMP_ID</td>
+
+<td>9</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>ID_STN</td>
+
+<td>9-Cabuyao</td>
+
+</tr>
+
+<tr>
+
+<td>X</td>
+
+<td>298093</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>Y</td>
+
+<td>1581325</td>
+
+</tr>
+
+</table>
+
+</td>
+
+</tr>
+
+</table>
+
+</body>
+
+</html>]]></description>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<coordinates>121.1282009001711,14.29642977646052,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="ID_00004">
+			<name>Los Baños</name>
+			<Snippet maxLines="0"></Snippet>
+			<description><![CDATA[<html xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+
+<head>
+
+<META http-equiv="Content-Type" content="text/html">
+
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+
+</head>
+
+<body style="margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;">
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px">
+
+<tr style="text-align:center;font-weight:bold;background:#9CBCE2">
+
+<td>Los Baños</td>
+
+</tr>
+
+<tr>
+
+<td>
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px">
+
+<tr>
+
+<td>FID</td>
+
+<td>4</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>NAME</td>
+
+<td>Los Baños</td>
+
+</tr>
+
+<tr>
+
+<td>DESCRIPTIO</td>
+
+<td>Los Baños</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>STATION2</td>
+
+<td>TR</td>
+
+</tr>
+
+<tr>
+
+<td>SAMP_ID</td>
+
+<td>12</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>ID_STN</td>
+
+<td>12-Los Baños</td>
+
+</tr>
+
+<tr>
+
+<td>X</td>
+
+<td>312186</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>Y</td>
+
+<td>1569296</td>
+
+</tr>
+
+</table>
+
+</td>
+
+</tr>
+
+</table>
+
+</body>
+
+</html>]]></description>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<coordinates>121.2596403558382,14.18870826432042,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="ID_00005">
+			<name>Mangangate</name>
+			<Snippet maxLines="0"></Snippet>
+			<description><![CDATA[<html xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+
+<head>
+
+<META http-equiv="Content-Type" content="text/html">
+
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+
+</head>
+
+<body style="margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;">
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px">
+
+<tr style="text-align:center;font-weight:bold;background:#9CBCE2">
+
+<td>Mangangate</td>
+
+</tr>
+
+<tr>
+
+<td>
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px">
+
+<tr>
+
+<td>FID</td>
+
+<td>5</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>NAME</td>
+
+<td>Mangangate</td>
+
+</tr>
+
+<tr>
+
+<td>DESCRIPTIO</td>
+
+<td>Mangangate</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>STATION2</td>
+
+<td>TR</td>
+
+</tr>
+
+<tr>
+
+<td>SAMP_ID</td>
+
+<td>4</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>ID_STN</td>
+
+<td>4-Mangangate</td>
+
+</tr>
+
+<tr>
+
+<td>X</td>
+
+<td>289773.776</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>Y</td>
+
+<td>1595444.516</td>
+
+</tr>
+
+</table>
+
+</td>
+
+</tr>
+
+</table>
+
+</body>
+
+</html>]]></description>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<coordinates>121.0500029997639,14.42340105248566,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="ID_00006">
+			<name>Tunasan</name>
+			<Snippet maxLines="0"></Snippet>
+			<description><![CDATA[<html xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+
+<head>
+
+<META http-equiv="Content-Type" content="text/html">
+
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+
+</head>
+
+<body style="margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;">
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px">
+
+<tr style="text-align:center;font-weight:bold;background:#9CBCE2">
+
+<td>Tunasan</td>
+
+</tr>
+
+<tr>
+
+<td>
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px">
+
+<tr>
+
+<td>FID</td>
+
+<td>6</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>NAME</td>
+
+<td>Tunasan</td>
+
+</tr>
+
+<tr>
+
+<td>DESCRIPTIO</td>
+
+<td>Tunasan</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>STATION2</td>
+
+<td>TR</td>
+
+</tr>
+
+<tr>
+
+<td>SAMP_ID</td>
+
+<td>5</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>ID_STN</td>
+
+<td>5-Tunasan</td>
+
+</tr>
+
+<tr>
+
+<td>X</td>
+
+<td>290273</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>Y</td>
+
+<td>1590237</td>
+
+</tr>
+
+</table>
+
+</td>
+
+</tr>
+
+</table>
+
+</body>
+
+</html>]]></description>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<coordinates>121.0550395182619,14.37638178587971,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="ID_00007">
+			<name>Pangil</name>
+			<Snippet maxLines="0"></Snippet>
+			<description><![CDATA[<html xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+
+<head>
+
+<META http-equiv="Content-Type" content="text/html">
+
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+
+</head>
+
+<body style="margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;">
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px">
+
+<tr style="text-align:center;font-weight:bold;background:#9CBCE2">
+
+<td>Pangil</td>
+
+</tr>
+
+<tr>
+
+<td>
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px">
+
+<tr>
+
+<td>FID</td>
+
+<td>7</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>NAME</td>
+
+<td>Pangil</td>
+
+</tr>
+
+<tr>
+
+<td>DESCRIPTIO</td>
+
+<td>Pangil</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>STATION2</td>
+
+<td>TR</td>
+
+</tr>
+
+<tr>
+
+<td>SAMP_ID</td>
+
+<td>17</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>ID_STN</td>
+
+<td>17-Pangil</td>
+
+</tr>
+
+<tr>
+
+<td>X</td>
+
+<td>334573.406</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>Y</td>
+
+<td>1592226.68</td>
+
+</tr>
+
+</table>
+
+</td>
+
+</tr>
+
+</table>
+
+</body>
+
+</html>]]></description>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<coordinates>121.4656297400842,14.39738483668843,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="ID_00008">
+			<name>Pila</name>
+			<Snippet maxLines="0"></Snippet>
+			<description><![CDATA[<html xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+
+<head>
+
+<META http-equiv="Content-Type" content="text/html">
+
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+
+</head>
+
+<body style="margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;">
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px">
+
+<tr style="text-align:center;font-weight:bold;background:#9CBCE2">
+
+<td>Pila</td>
+
+</tr>
+
+<tr>
+
+<td>
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px">
+
+<tr>
+
+<td>FID</td>
+
+<td>8</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>NAME</td>
+
+<td>Pila</td>
+
+</tr>
+
+<tr>
+
+<td>DESCRIPTIO</td>
+
+<td>Pila</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>STATION2</td>
+
+<td>TR</td>
+
+</tr>
+
+<tr>
+
+<td>SAMP_ID</td>
+
+<td>14</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>ID_STN</td>
+
+<td>14-Pila</td>
+
+</tr>
+
+<tr>
+
+<td>X</td>
+
+<td>322297.877</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>Y</td>
+
+<td>1571655.457</td>
+
+</tr>
+
+</table>
+
+</td>
+
+</tr>
+
+</table>
+
+</body>
+
+</html>]]></description>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<coordinates>121.3531586074774,14.2106955874945,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="ID_00009">
+			<name>Siniloan</name>
+			<Snippet maxLines="0"></Snippet>
+			<description><![CDATA[<html xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+
+<head>
+
+<META http-equiv="Content-Type" content="text/html">
+
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+
+</head>
+
+<body style="margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;">
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px">
+
+<tr style="text-align:center;font-weight:bold;background:#9CBCE2">
+
+<td>Siniloan</td>
+
+</tr>
+
+<tr>
+
+<td>
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px">
+
+<tr>
+
+<td>FID</td>
+
+<td>9</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>NAME</td>
+
+<td>Siniloan</td>
+
+</tr>
+
+<tr>
+
+<td>DESCRIPTIO</td>
+
+<td>Siniloan</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>STATION2</td>
+
+<td>TR</td>
+
+</tr>
+
+<tr>
+
+<td>SAMP_ID</td>
+
+<td>18</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>ID_STN</td>
+
+<td>18-Siniloan</td>
+
+</tr>
+
+<tr>
+
+<td>X</td>
+
+<td>331624.296</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>Y</td>
+
+<td>1593070.803</td>
+
+</tr>
+
+</table>
+
+</td>
+
+</tr>
+
+</table>
+
+</body>
+
+</html>]]></description>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<coordinates>121.4382301543002,14.40483517313806,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="ID_00010">
+			<name>Sta. Maria</name>
+			<Snippet maxLines="0"></Snippet>
+			<description><![CDATA[<html xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+
+<head>
+
+<META http-equiv="Content-Type" content="text/html">
+
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+
+</head>
+
+<body style="margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;">
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px">
+
+<tr style="text-align:center;font-weight:bold;background:#9CBCE2">
+
+<td>Sta. Maria</td>
+
+</tr>
+
+<tr>
+
+<td>
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px">
+
+<tr>
+
+<td>FID</td>
+
+<td>10</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>NAME</td>
+
+<td>Sta. Maria</td>
+
+</tr>
+
+<tr>
+
+<td>DESCRIPTIO</td>
+
+<td>Sta. Maria</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>STATION2</td>
+
+<td>TR</td>
+
+</tr>
+
+<tr>
+
+<td>SAMP_ID</td>
+
+<td>19</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>ID_STN</td>
+
+<td>19-Sta. Maria</td>
+
+</tr>
+
+<tr>
+
+<td>X</td>
+
+<td>330478.356</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>Y</td>
+
+<td>1599061.467</td>
+
+</tr>
+
+</table>
+
+</td>
+
+</tr>
+
+</table>
+
+</body>
+
+</html>]]></description>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<coordinates>121.4272236721619,14.4589097800257,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="ID_00011">
+			<name>Aplaya</name>
+			<Snippet maxLines="0"></Snippet>
+			<description><![CDATA[<html xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+
+<head>
+
+<META http-equiv="Content-Type" content="text/html">
+
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+
+</head>
+
+<body style="margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;">
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px">
+
+<tr style="text-align:center;font-weight:bold;background:#9CBCE2">
+
+<td>Aplaya</td>
+
+</tr>
+
+<tr>
+
+<td>
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px">
+
+<tr>
+
+<td>FID</td>
+
+<td>11</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>NAME</td>
+
+<td>Aplaya</td>
+
+</tr>
+
+<tr>
+
+<td>DESCRIPTIO</td>
+
+<td>Sta. Rosa</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>STATION2</td>
+
+<td>TR</td>
+
+</tr>
+
+<tr>
+
+<td>SAMP_ID</td>
+
+<td>8</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>ID_STN</td>
+
+<td>8-Sta. Rosa</td>
+
+</tr>
+
+<tr>
+
+<td>X</td>
+
+<td>297377.477</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>Y</td>
+
+<td>1583535.186</td>
+
+</tr>
+
+</table>
+
+</td>
+
+</tr>
+
+</table>
+
+</body>
+
+</html>]]></description>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<coordinates>121.1214040981142,14.31635068820589,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="ID_00012">
+			<name>Macabling</name>
+			<Snippet maxLines="0"></Snippet>
+			<description><![CDATA[<html xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+
+<head>
+
+<META http-equiv="Content-Type" content="text/html">
+
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+
+</head>
+
+<body style="margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;">
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px">
+
+<tr style="text-align:center;font-weight:bold;background:#9CBCE2">
+
+<td>Macabling</td>
+
+</tr>
+
+<tr>
+
+<td>
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px">
+
+<tr>
+
+<td>FID</td>
+
+<td>12</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>NAME</td>
+
+<td>Macabling</td>
+
+</tr>
+
+<tr>
+
+<td>DESCRIPTIO</td>
+
+<td>Sta. Rosa MS</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>STATION2</td>
+
+<td>TR</td>
+
+</tr>
+
+<tr>
+
+<td>SAMP_ID</td>
+
+<td>8m</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>ID_STN</td>
+
+<td>8m-Sta. Rosa MS</td>
+
+</tr>
+
+<tr>
+
+<td>X</td>
+
+<td>294440.833</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>Y</td>
+
+<td>1581467.65</td>
+
+</tr>
+
+</table>
+
+</td>
+
+</tr>
+
+</table>
+
+</body>
+
+</html>]]></description>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<coordinates>121.0943454614411,14.29745010985017,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="ID_00013">
+			<name>LIIP</name>
+			<Snippet maxLines="0"></Snippet>
+			<description><![CDATA[<html xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+
+<head>
+
+<META http-equiv="Content-Type" content="text/html">
+
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+
+</head>
+
+<body style="margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;">
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px">
+
+<tr style="text-align:center;font-weight:bold;background:#9CBCE2">
+
+<td>LIIP</td>
+
+</tr>
+
+<tr>
+
+<td>
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px">
+
+<tr>
+
+<td>FID</td>
+
+<td>13</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>NAME</td>
+
+<td>LIIP</td>
+
+</tr>
+
+<tr>
+
+<td>DESCRIPTIO</td>
+
+<td>Sta. Rosa US</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>STATION2</td>
+
+<td>TR</td>
+
+</tr>
+
+<tr>
+
+<td>SAMP_ID</td>
+
+<td>8u</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>ID_STN</td>
+
+<td>8u-Sta. Rosa US</td>
+
+</tr>
+
+<tr>
+
+<td>X</td>
+
+<td>290310.151</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>Y</td>
+
+<td>1577212.522</td>
+
+</tr>
+
+</table>
+
+</td>
+
+</tr>
+
+</table>
+
+</body>
+
+</html>]]></description>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<coordinates>121.0563971403705,14.25868861937361,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="ID_00014">
+			<name>Cuyab</name>
+			<Snippet maxLines="0"></Snippet>
+			<description><![CDATA[<html xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+
+<head>
+
+<META http-equiv="Content-Type" content="text/html">
+
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+
+</head>
+
+<body style="margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;">
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px">
+
+<tr style="text-align:center;font-weight:bold;background:#9CBCE2">
+
+<td>Cuyab</td>
+
+</tr>
+
+<tr>
+
+<td>
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px">
+
+<tr>
+
+<td>FID</td>
+
+<td>14</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>NAME</td>
+
+<td>Cuyab</td>
+
+</tr>
+
+<tr>
+
+<td>DESCRIPTIO</td>
+
+<td>San Pedro</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>STATION2</td>
+
+<td>TR</td>
+
+</tr>
+
+<tr>
+
+<td>SAMP_ID</td>
+
+<td>6</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>ID_STN</td>
+
+<td>6-San Pedro</td>
+
+</tr>
+
+<tr>
+
+<td>X</td>
+
+<td>290885.6</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>Y</td>
+
+<td>1589435.936</td>
+
+</tr>
+
+</table>
+
+</td>
+
+</tr>
+
+</table>
+
+</body>
+
+</html>]]></description>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<coordinates>121.0607807236352,14.36918957549072,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="ID_00015">
+			<name>San Cristobal</name>
+			<Snippet maxLines="0"></Snippet>
+			<description><![CDATA[<html xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+
+<head>
+
+<META http-equiv="Content-Type" content="text/html">
+
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+
+</head>
+
+<body style="margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;">
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px">
+
+<tr style="text-align:center;font-weight:bold;background:#9CBCE2">
+
+<td>San Cristobal</td>
+
+</tr>
+
+<tr>
+
+<td>
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px">
+
+<tr>
+
+<td>FID</td>
+
+<td>15</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>NAME</td>
+
+<td>San Cristobal</td>
+
+</tr>
+
+<tr>
+
+<td>DESCRIPTIO</td>
+
+<td>San Cristobal</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>STATION2</td>
+
+<td>TR</td>
+
+</tr>
+
+<tr>
+
+<td>SAMP_ID</td>
+
+<td>10</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>ID_STN</td>
+
+<td>10-San Cristobal</td>
+
+</tr>
+
+<tr>
+
+<td>X</td>
+
+<td>299204.986</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>Y</td>
+
+<td>1572842.014</td>
+
+</tr>
+
+</table>
+
+</td>
+
+</tr>
+
+</table>
+
+</body>
+
+</html>]]></description>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<coordinates>121.139134853382,14.21984986765871,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="ID_00016">
+			<name>San Juan</name>
+			<Snippet maxLines="0"></Snippet>
+			<description><![CDATA[<html xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+
+<head>
+
+<META http-equiv="Content-Type" content="text/html">
+
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+
+</head>
+
+<body style="margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;">
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px">
+
+<tr style="text-align:center;font-weight:bold;background:#9CBCE2">
+
+<td>San Juan</td>
+
+</tr>
+
+<tr>
+
+<td>
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px">
+
+<tr>
+
+<td>FID</td>
+
+<td>16</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>NAME</td>
+
+<td>San Juan</td>
+
+</tr>
+
+<tr>
+
+<td>DESCRIPTIO</td>
+
+<td>San Juan</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>STATION2</td>
+
+<td>TR</td>
+
+</tr>
+
+<tr>
+
+<td>SAMP_ID</td>
+
+<td>11</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>ID_STN</td>
+
+<td>11-San Juan</td>
+
+</tr>
+
+<tr>
+
+<td>X</td>
+
+<td>303115.89</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>Y</td>
+
+<td>1572598.617</td>
+
+</tr>
+
+</table>
+
+</td>
+
+</tr>
+
+</table>
+
+</body>
+
+</html>]]></description>
+			<styleUrl>#IconStyle003</styleUrl>
+			<Point>
+				<coordinates>121.1586384565938,14.21052023364964,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="ID_00017">
+			<name>Pagsanjan</name>
+			<Snippet maxLines="0"></Snippet>
+			<description><![CDATA[<html xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+
+<head>
+
+<META http-equiv="Content-Type" content="text/html">
+
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+
+</head>
+
+<body style="margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;">
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px">
+
+<tr style="text-align:center;font-weight:bold;background:#9CBCE2">
+
+<td>Pagsanjan</td>
+
+</tr>
+
+<tr>
+
+<td>
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px">
+
+<tr>
+
+<td>FID</td>
+
+<td>17</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>NAME</td>
+
+<td>Pagsanjan</td>
+
+</tr>
+
+<tr>
+
+<td>DESCRIPTIO</td>
+
+<td>Pagsanjan</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>STATION2</td>
+
+<td>TR</td>
+
+</tr>
+
+<tr>
+
+<td>SAMP_ID</td>
+
+<td>16</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>ID_STN</td>
+
+<td>16-Pagsanjan</td>
+
+</tr>
+
+<tr>
+
+<td>X</td>
+
+<td>333839.786</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>Y</td>
+
+<td>1580550.094</td>
+
+</tr>
+
+</table>
+
+</td>
+
+</tr>
+
+</table>
+
+</body>
+
+</html>]]></description>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<coordinates>121.4595483982775,14.29180234533259,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="ID_00018">
+			<name>Bay River</name>
+			<Snippet maxLines="0"></Snippet>
+			<description><![CDATA[<html xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+
+<head>
+
+<META http-equiv="Content-Type" content="text/html">
+
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+
+</head>
+
+<body style="margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;">
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px">
+
+<tr style="text-align:center;font-weight:bold;background:#9CBCE2">
+
+<td>Bay River</td>
+
+</tr>
+
+<tr>
+
+<td>
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px">
+
+<tr>
+
+<td>FID</td>
+
+<td>18</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>NAME</td>
+
+<td>Bay River</td>
+
+</tr>
+
+<tr>
+
+<td>DESCRIPTIO</td>
+
+<td>Bay River</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>STATION2</td>
+
+<td>TR</td>
+
+</tr>
+
+<tr>
+
+<td>SAMP_ID</td>
+
+<td>13</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>ID_STN</td>
+
+<td>13-Bay River</td>
+
+</tr>
+
+<tr>
+
+<td>X</td>
+
+<td>314891.843</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>Y</td>
+
+<td>1568307.293</td>
+
+</tr>
+
+</table>
+
+</td>
+
+</tr>
+
+</table>
+
+</body>
+
+</html>]]></description>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<coordinates>121.2847729405726,14.17995336195265,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="ID_00019">
+			<name>Baras</name>
+			<Snippet maxLines="0"></Snippet>
+			<description><![CDATA[<html xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+
+<head>
+
+<META http-equiv="Content-Type" content="text/html">
+
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+
+</head>
+
+<body style="margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;">
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px">
+
+<tr style="text-align:center;font-weight:bold;background:#9CBCE2">
+
+<td>Baras</td>
+
+</tr>
+
+<tr>
+
+<td>
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px">
+
+<tr>
+
+<td>FID</td>
+
+<td>19</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>NAME</td>
+
+<td>Baras</td>
+
+</tr>
+
+<tr>
+
+<td>DESCRIPTIO</td>
+
+<td>Baras</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>STATION2</td>
+
+<td>TR</td>
+
+</tr>
+
+<tr>
+
+<td>SAMP_ID</td>
+
+<td>23</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>ID_STN</td>
+
+<td>23-Baras</td>
+
+</tr>
+
+<tr>
+
+<td>X</td>
+
+<td>313150.016</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>Y</td>
+
+<td>1605363.297</td>
+
+</tr>
+
+</table>
+
+</td>
+
+</tr>
+
+</table>
+
+</body>
+
+</html>]]></description>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<coordinates>121.266063376847,14.51473383022878,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="ID_00020">
+			<name>Jalajala</name>
+			<Snippet maxLines="0"></Snippet>
+			<description><![CDATA[<html xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+
+<head>
+
+<META http-equiv="Content-Type" content="text/html">
+
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+
+</head>
+
+<body style="margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;">
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px">
+
+<tr style="text-align:center;font-weight:bold;background:#9CBCE2">
+
+<td>Jalajala</td>
+
+</tr>
+
+<tr>
+
+<td>
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px">
+
+<tr>
+
+<td>FID</td>
+
+<td>20</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>NAME</td>
+
+<td>Jalajala</td>
+
+</tr>
+
+<tr>
+
+<td>DESCRIPTIO</td>
+
+<td>Jalajala</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>STATION2</td>
+
+<td>TR</td>
+
+</tr>
+
+<tr>
+
+<td>SAMP_ID</td>
+
+<td>20</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>ID_STN</td>
+
+<td>20-Jalajala</td>
+
+</tr>
+
+<tr>
+
+<td>X</td>
+
+<td>318908.238</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>Y</td>
+
+<td>1587291.334</td>
+
+</tr>
+
+</table>
+
+</td>
+
+</tr>
+
+</table>
+
+</body>
+
+</html>]]></description>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<coordinates>121.3207072285705,14.35179251042977,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="ID_00021">
+			<name>Morong</name>
+			<Snippet maxLines="0"></Snippet>
+			<description><![CDATA[<html xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+
+<head>
+
+<META http-equiv="Content-Type" content="text/html">
+
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+
+</head>
+
+<body style="margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;">
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px">
+
+<tr style="text-align:center;font-weight:bold;background:#9CBCE2">
+
+<td>Morong</td>
+
+</tr>
+
+<tr>
+
+<td>
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px">
+
+<tr>
+
+<td>FID</td>
+
+<td>21</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>NAME</td>
+
+<td>Morong</td>
+
+</tr>
+
+<tr>
+
+<td>DESCRIPTIO</td>
+
+<td>Morong</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>STATION2</td>
+
+<td>TR</td>
+
+</tr>
+
+<tr>
+
+<td>SAMP_ID</td>
+
+<td>24</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>ID_STN</td>
+
+<td>24-Morong</td>
+
+</tr>
+
+<tr>
+
+<td>X</td>
+
+<td>310112.042</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>Y</td>
+
+<td>1605134.421</td>
+
+</tr>
+
+</table>
+
+</td>
+
+</tr>
+
+</table>
+
+</body>
+
+</html>]]></description>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<coordinates>121.2378972758164,14.51245541146171,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="ID_00022">
+			<name>Morong US</name>
+			<Snippet maxLines="0"></Snippet>
+			<description><![CDATA[<html xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+
+<head>
+
+<META http-equiv="Content-Type" content="text/html">
+
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+
+</head>
+
+<body style="margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;">
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px">
+
+<tr style="text-align:center;font-weight:bold;background:#9CBCE2">
+
+<td>Morong US</td>
+
+</tr>
+
+<tr>
+
+<td>
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px">
+
+<tr>
+
+<td>FID</td>
+
+<td>22</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>NAME</td>
+
+<td>Morong US</td>
+
+</tr>
+
+<tr>
+
+<td>DESCRIPTIO</td>
+
+<td>Morong US</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>STATION2</td>
+
+<td>TR</td>
+
+</tr>
+
+<tr>
+
+<td>SAMP_ID</td>
+
+<td>24u</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>ID_STN</td>
+
+<td>24u-Morong US</td>
+
+</tr>
+
+<tr>
+
+<td>X</td>
+
+<td>307308.538</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>Y</td>
+
+<td>1605123.195</td>
+
+</tr>
+
+</table>
+
+</td>
+
+</tr>
+
+</table>
+
+</body>
+
+</html>]]></description>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<coordinates>121.2118913856066,14.51215720046938,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="ID_00023">
+			<name>Pililla</name>
+			<Snippet maxLines="0"></Snippet>
+			<description><![CDATA[<html xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+
+<head>
+
+<META http-equiv="Content-Type" content="text/html">
+
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+
+</head>
+
+<body style="margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;">
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px">
+
+<tr style="text-align:center;font-weight:bold;background:#9CBCE2">
+
+<td>Pililla</td>
+
+</tr>
+
+<tr>
+
+<td>
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px">
+
+<tr>
+
+<td>FID</td>
+
+<td>23</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>NAME</td>
+
+<td>Pililla</td>
+
+</tr>
+
+<tr>
+
+<td>DESCRIPTIO</td>
+
+<td>Pililla</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>STATION2</td>
+
+<td>TR</td>
+
+</tr>
+
+<tr>
+
+<td>SAMP_ID</td>
+
+<td>21</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>ID_STN</td>
+
+<td>21-Pililla</td>
+
+</tr>
+
+<tr>
+
+<td>X</td>
+
+<td>317656</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>Y</td>
+
+<td>1601059</td>
+
+</tr>
+
+</table>
+
+</td>
+
+</tr>
+
+</table>
+
+</body>
+
+</html>]]></description>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<coordinates>121.3081602192171,14.4761383215313,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="ID_00024">
+			<name>Tanay</name>
+			<Snippet maxLines="0"></Snippet>
+			<description><![CDATA[<html xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+
+<head>
+
+<META http-equiv="Content-Type" content="text/html">
+
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+
+</head>
+
+<body style="margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;">
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px">
+
+<tr style="text-align:center;font-weight:bold;background:#9CBCE2">
+
+<td>Tanay</td>
+
+</tr>
+
+<tr>
+
+<td>
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px">
+
+<tr>
+
+<td>FID</td>
+
+<td>24</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>NAME</td>
+
+<td>Tanay</td>
+
+</tr>
+
+<tr>
+
+<td>DESCRIPTIO</td>
+
+<td>Tanay</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>STATION2</td>
+
+<td>TR</td>
+
+</tr>
+
+<tr>
+
+<td>SAMP_ID</td>
+
+<td>22a</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>ID_STN</td>
+
+<td>22a-Tanay</td>
+
+</tr>
+
+<tr>
+
+<td>X</td>
+
+<td>315195.016</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>Y</td>
+
+<td>1602506.768</td>
+
+</tr>
+
+</table>
+
+</td>
+
+</tr>
+
+</table>
+
+</body>
+
+</html>]]></description>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<coordinates>121.2852331999513,14.48905728170471,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="ID_00025">
+			<name>Tanay MS</name>
+			<Snippet maxLines="0"></Snippet>
+			<description><![CDATA[<html xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+
+<head>
+
+<META http-equiv="Content-Type" content="text/html">
+
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+
+</head>
+
+<body style="margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;">
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px">
+
+<tr style="text-align:center;font-weight:bold;background:#9CBCE2">
+
+<td>Tanay US</td>
+
+</tr>
+
+<tr>
+
+<td>
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px">
+
+<tr>
+
+<td>FID</td>
+
+<td>25</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>NAME</td>
+
+<td>Tanay US</td>
+
+</tr>
+
+<tr>
+
+<td>DESCRIPTIO</td>
+
+<td>Tanay MS</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>STATION2</td>
+
+<td>TR</td>
+
+</tr>
+
+<tr>
+
+<td>SAMP_ID</td>
+
+<td>22b</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>ID_STN</td>
+
+<td>22b-Tanay MS</td>
+
+</tr>
+
+<tr>
+
+<td>X</td>
+
+<td>317903.773</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>Y</td>
+
+<td>1608481.563</td>
+
+</tr>
+
+</table>
+
+</td>
+
+</tr>
+
+</table>
+
+</body>
+
+</html>]]></description>
+			<styleUrl>#IconStyle003</styleUrl>
+			<Point>
+				<coordinates>121.3099423309909,14.54323227657031,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="ID_00026">
+			<name>Pangil US</name>
+			<Snippet maxLines="0"></Snippet>
+			<description><![CDATA[<html xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+
+<head>
+
+<META http-equiv="Content-Type" content="text/html">
+
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+
+</head>
+
+<body style="margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;">
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px">
+
+<tr style="text-align:center;font-weight:bold;background:#9CBCE2">
+
+<td>Pangil US</td>
+
+</tr>
+
+<tr>
+
+<td>
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px">
+
+<tr>
+
+<td>FID</td>
+
+<td>26</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>NAME</td>
+
+<td>Pangil US</td>
+
+</tr>
+
+<tr>
+
+<td>DESCRIPTIO</td>
+
+<td>Pangil US</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>STATION2</td>
+
+<td>TR</td>
+
+</tr>
+
+<tr>
+
+<td>SAMP_ID</td>
+
+<td>17u</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>ID_STN</td>
+
+<td>17u-Pangil US</td>
+
+</tr>
+
+<tr>
+
+<td>X</td>
+
+<td>336269.713</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>Y</td>
+
+<td>1593957.449</td>
+
+</tr>
+
+</table>
+
+</td>
+
+</tr>
+
+</table>
+
+</body>
+
+</html>]]></description>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<coordinates>121.481253566126,14.4131299830037,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="ID_00027">
+			<name>Sta. Maria US</name>
+			<Snippet maxLines="0"></Snippet>
+			<description><![CDATA[<html xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+
+<head>
+
+<META http-equiv="Content-Type" content="text/html">
+
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+
+</head>
+
+<body style="margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;">
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px">
+
+<tr style="text-align:center;font-weight:bold;background:#9CBCE2">
+
+<td>Sta. Maria US</td>
+
+</tr>
+
+<tr>
+
+<td>
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px">
+
+<tr>
+
+<td>FID</td>
+
+<td>27</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>NAME</td>
+
+<td>Sta. Maria US</td>
+
+</tr>
+
+<tr>
+
+<td>DESCRIPTIO</td>
+
+<td>Sta. Maria US</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>STATION2</td>
+
+<td>TR</td>
+
+</tr>
+
+<tr>
+
+<td>SAMP_ID</td>
+
+<td>19u</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>ID_STN</td>
+
+<td>19u-Sta. Maria US</td>
+
+</tr>
+
+<tr>
+
+<td>X</td>
+
+<td>332037.327</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>Y</td>
+
+<td>1604758.717</td>
+
+</tr>
+
+</table>
+
+</td>
+
+</tr>
+
+</table>
+
+</body>
+
+</html>]]></description>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<coordinates>121.4413239038108,14.5104991933157,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="ID_00028">
+			<name>Tunasan US</name>
+			<Snippet maxLines="0"></Snippet>
+			<description><![CDATA[<html xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+
+<head>
+
+<META http-equiv="Content-Type" content="text/html">
+
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+
+</head>
+
+<body style="margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;">
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px">
+
+<tr style="text-align:center;font-weight:bold;background:#9CBCE2">
+
+<td>Tunasan US</td>
+
+</tr>
+
+<tr>
+
+<td>
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px">
+
+<tr>
+
+<td>FID</td>
+
+<td>28</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>NAME</td>
+
+<td>Tunasan US</td>
+
+</tr>
+
+<tr>
+
+<td>DESCRIPTIO</td>
+
+<td>Tunasan US</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>STATION2</td>
+
+<td>TR</td>
+
+</tr>
+
+<tr>
+
+<td>SAMP_ID</td>
+
+<td>5u</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>ID_STN</td>
+
+<td>5u-Tunasan US</td>
+
+</tr>
+
+<tr>
+
+<td>X</td>
+
+<td>288403.874</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>Y</td>
+
+<td>1589331.206</td>
+
+</tr>
+
+</table>
+
+</td>
+
+</tr>
+
+</table>
+
+</body>
+
+</html>]]></description>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<coordinates>121.0377842757614,14.36805363695581,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="ID_00029">
+			<name>Mangangate US</name>
+			<Snippet maxLines="0"></Snippet>
+			<description><![CDATA[<html xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+
+<head>
+
+<META http-equiv="Content-Type" content="text/html">
+
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+
+</head>
+
+<body style="margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;">
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px">
+
+<tr style="text-align:center;font-weight:bold;background:#9CBCE2">
+
+<td>Mangangate US</td>
+
+</tr>
+
+<tr>
+
+<td>
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px">
+
+<tr>
+
+<td>FID</td>
+
+<td>29</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>NAME</td>
+
+<td>Mangangate US</td>
+
+</tr>
+
+<tr>
+
+<td>DESCRIPTIO</td>
+
+<td>Mangangate US</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>STATION2</td>
+
+<td>TR</td>
+
+</tr>
+
+<tr>
+
+<td>SAMP_ID</td>
+
+<td>4u</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>ID_STN</td>
+
+<td>4u-Mangangate US</td>
+
+</tr>
+
+<tr>
+
+<td>X</td>
+
+<td>287308.296</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>Y</td>
+
+<td>1593431.947</td>
+
+</tr>
+
+</table>
+
+</td>
+
+</tr>
+
+</table>
+
+</body>
+
+</html>]]></description>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<coordinates>121.0273035145985,14.40502483964626,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="ID_00030">
+			<name>Sta. Cruz</name>
+			<Snippet maxLines="0"></Snippet>
+			<description><![CDATA[<html xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+
+<head>
+
+<META http-equiv="Content-Type" content="text/html">
+
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+
+</head>
+
+<body style="margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;">
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px">
+
+<tr style="text-align:center;font-weight:bold;background:#9CBCE2">
+
+<td>Sta. Cruz</td>
+
+</tr>
+
+<tr>
+
+<td>
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px">
+
+<tr>
+
+<td>FID</td>
+
+<td>30</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>NAME</td>
+
+<td>Sta. Cruz</td>
+
+</tr>
+
+<tr>
+
+<td>DESCRIPTIO</td>
+
+<td>Sta. Cruz</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>STATION2</td>
+
+<td>TR</td>
+
+</tr>
+
+<tr>
+
+<td>SAMP_ID</td>
+
+<td>15</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>ID_STN</td>
+
+<td>15-Sta. Cruz</td>
+
+</tr>
+
+<tr>
+
+<td>X</td>
+
+<td>328232.701</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>Y</td>
+
+<td>1581278.677</td>
+
+</tr>
+
+</table>
+
+</td>
+
+</tr>
+
+</table>
+
+</body>
+
+</html>]]></description>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<coordinates>121.407533469727,14.29804535789384,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="ID_00031">
+			<name>Sapang Baho</name>
+			<Snippet maxLines="0"></Snippet>
+			<description><![CDATA[<html xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+
+<head>
+
+<META http-equiv="Content-Type" content="text/html">
+
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+
+</head>
+
+<body style="margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;">
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px">
+
+<tr style="text-align:center;font-weight:bold;background:#9CBCE2">
+
+<td>Sapang Baho</td>
+
+</tr>
+
+<tr>
+
+<td>
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px">
+
+<tr>
+
+<td>FID</td>
+
+<td>31</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>NAME</td>
+
+<td>Sapang Baho</td>
+
+</tr>
+
+<tr>
+
+<td>DESCRIPTIO</td>
+
+<td>Cainta</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>STATION2</td>
+
+<td>TR</td>
+
+</tr>
+
+<tr>
+
+<td>SAMP_ID</td>
+
+<td>26</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>ID_STN</td>
+
+<td>26-Cainta</td>
+
+</tr>
+
+<tr>
+
+<td>X</td>
+
+<td>296443.469</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>Y</td>
+
+<td>1610855.851</td>
+
+</tr>
+
+</table>
+
+</td>
+
+</tr>
+
+</table>
+
+</body>
+
+</html>]]></description>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<coordinates>121.1106650841717,14.56317143749978,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="ID_00032">
+			<name>Barkadahan</name>
+			<Snippet maxLines="0"></Snippet>
+			<description><![CDATA[<html xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+
+<head>
+
+<META http-equiv="Content-Type" content="text/html">
+
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+
+</head>
+
+<body style="margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;">
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px">
+
+<tr style="text-align:center;font-weight:bold;background:#9CBCE2">
+
+<td>Barkadahan</td>
+
+</tr>
+
+<tr>
+
+<td>
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px">
+
+<tr>
+
+<td>FID</td>
+
+<td>32</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>NAME</td>
+
+<td>Barkadahan</td>
+
+</tr>
+
+<tr>
+
+<td>DESCRIPTIO</td>
+
+<td>Taytay</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>STATION2</td>
+
+<td>TR</td>
+
+</tr>
+
+<tr>
+
+<td>SAMP_ID</td>
+
+<td>25</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>ID_STN</td>
+
+<td>25-Taytay</td>
+
+</tr>
+
+<tr>
+
+<td>X</td>
+
+<td>297371.448</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>Y</td>
+
+<td>1609338.134</td>
+
+</tr>
+
+</table>
+
+</td>
+
+</tr>
+
+</table>
+
+</body>
+
+</html>]]></description>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<coordinates>121.1193911269504,14.54952571406774,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="ID_00033">
+			<name>Marikina</name>
+			<Snippet maxLines="0"></Snippet>
+			<description><![CDATA[<html xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+
+<head>
+
+<META http-equiv="Content-Type" content="text/html">
+
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+
+</head>
+
+<body style="margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;">
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px">
+
+<tr style="text-align:center;font-weight:bold;background:#9CBCE2">
+
+<td>Marikina</td>
+
+</tr>
+
+<tr>
+
+<td>
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px">
+
+<tr>
+
+<td>FID</td>
+
+<td>33</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>NAME</td>
+
+<td>Marikina</td>
+
+</tr>
+
+<tr>
+
+<td>DESCRIPTIO</td>
+
+<td>Mangahan</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>STATION2</td>
+
+<td>TR</td>
+
+</tr>
+
+<tr>
+
+<td>SAMP_ID</td>
+
+<td>1</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>ID_STN</td>
+
+<td>1-Mangahan</td>
+
+</tr>
+
+<tr>
+
+<td>X</td>
+
+<td>294248.965</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>Y</td>
+
+<td>1614856.308</td>
+
+</tr>
+
+</table>
+
+</td>
+
+</tr>
+
+</table>
+
+</body>
+
+</html>]]></description>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<coordinates>121.0899929406094,14.59915620918067,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="ID_00034">
+			<name>Pagsanjan</name>
+			<Snippet maxLines="0"></Snippet>
+			<description><![CDATA[<html xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+
+<head>
+
+<META http-equiv="Content-Type" content="text/html">
+
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+
+</head>
+
+<body style="margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;">
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px">
+
+<tr style="text-align:center;font-weight:bold;background:#9CBCE2">
+
+<td>Pagsanjan</td>
+
+</tr>
+
+<tr>
+
+<td>
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px">
+
+<tr>
+
+<td>FID</td>
+
+<td>34</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>NAME</td>
+
+<td>Pagsanjan</td>
+
+</tr>
+
+<tr>
+
+<td>DESCRIPTIO</td>
+
+<td>XVIII</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>STATION2</td>
+
+<td>Lake</td>
+
+</tr>
+
+<tr>
+
+<td>SAMP_ID</td>
+
+<td></td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>ID_STN</td>
+
+<td>-XVIII</td>
+
+</tr>
+
+<tr>
+
+<td>X</td>
+
+<td>325760</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>Y</td>
+
+<td>1582879</td>
+
+</tr>
+
+</table>
+
+</td>
+
+</tr>
+
+</table>
+
+</body>
+
+</html>]]></description>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<coordinates>121.3845119634468,14.31235477189262,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="ID_00035">
+			<name>Sanctuary</name>
+			<Snippet maxLines="0"></Snippet>
+			<description><![CDATA[<html xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+
+<head>
+
+<META http-equiv="Content-Type" content="text/html">
+
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+
+</head>
+
+<body style="margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;">
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px">
+
+<tr style="text-align:center;font-weight:bold;background:#9CBCE2">
+
+<td>Sanctuary</td>
+
+</tr>
+
+<tr>
+
+<td>
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px">
+
+<tr>
+
+<td>FID</td>
+
+<td>35</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>NAME</td>
+
+<td>Sanctuary</td>
+
+</tr>
+
+<tr>
+
+<td>DESCRIPTIO</td>
+
+<td>XVII</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>STATION2</td>
+
+<td>Lake</td>
+
+</tr>
+
+<tr>
+
+<td>SAMP_ID</td>
+
+<td></td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>ID_STN</td>
+
+<td>-XVII</td>
+
+</tr>
+
+<tr>
+
+<td>X</td>
+
+<td>312805.941</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>Y</td>
+
+<td>1575908.113</td>
+
+</tr>
+
+</table>
+
+</td>
+
+</tr>
+
+</table>
+
+</body>
+
+</html>]]></description>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<coordinates>121.2649273760732,14.24850797910603,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="ID_00036">
+			<name>West Bay</name>
+			<Snippet maxLines="0"></Snippet>
+			<description><![CDATA[<html xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+
+<head>
+
+<META http-equiv="Content-Type" content="text/html">
+
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+
+</head>
+
+<body style="margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;">
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px">
+
+<tr style="text-align:center;font-weight:bold;background:#9CBCE2">
+
+<td>West Bay</td>
+
+</tr>
+
+<tr>
+
+<td>
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px">
+
+<tr>
+
+<td>FID</td>
+
+<td>36</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>NAME</td>
+
+<td>West Bay</td>
+
+</tr>
+
+<tr>
+
+<td>DESCRIPTIO</td>
+
+<td>I</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>STATION2</td>
+
+<td>Lake</td>
+
+</tr>
+
+<tr>
+
+<td>SAMP_ID</td>
+
+<td></td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>ID_STN</td>
+
+<td>-I</td>
+
+</tr>
+
+<tr>
+
+<td>X</td>
+
+<td>303145</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>Y</td>
+
+<td>1594628</td>
+
+</tr>
+
+</table>
+
+</td>
+
+</tr>
+
+</table>
+
+</body>
+
+</html>]]></description>
+			<styleUrl>#IconStyle00</styleUrl>
+			<gx:balloonVisibility>1</gx:balloonVisibility>
+			<Point>
+				<coordinates>121.1740443039661,14.41701432246751,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="ID_00037">
+			<name>East Bay</name>
+			<Snippet maxLines="0"></Snippet>
+			<description><![CDATA[<html xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+
+<head>
+
+<META http-equiv="Content-Type" content="text/html">
+
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+
+</head>
+
+<body style="margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;">
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px">
+
+<tr style="text-align:center;font-weight:bold;background:#9CBCE2">
+
+<td>East Bay</td>
+
+</tr>
+
+<tr>
+
+<td>
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px">
+
+<tr>
+
+<td>FID</td>
+
+<td>37</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>NAME</td>
+
+<td>East Bay</td>
+
+</tr>
+
+<tr>
+
+<td>DESCRIPTIO</td>
+
+<td>II</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>STATION2</td>
+
+<td>Lake</td>
+
+</tr>
+
+<tr>
+
+<td>SAMP_ID</td>
+
+<td></td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>ID_STN</td>
+
+<td>-II</td>
+
+</tr>
+
+<tr>
+
+<td>X</td>
+
+<td>320542</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>Y</td>
+
+<td>1578449</td>
+
+</tr>
+
+</table>
+
+</td>
+
+</tr>
+
+</table>
+
+</body>
+
+</html>]]></description>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<coordinates>121.3364413116726,14.27198295568286,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="ID_00038">
+			<name>Central B</name>
+			<Snippet maxLines="0"></Snippet>
+			<description><![CDATA[<html xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+
+<head>
+
+<META http-equiv="Content-Type" content="text/html">
+
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+
+</head>
+
+<body style="margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;">
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px">
+
+<tr style="text-align:center;font-weight:bold;background:#9CBCE2">
+
+<td>Central B</td>
+
+</tr>
+
+<tr>
+
+<td>
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px">
+
+<tr>
+
+<td>FID</td>
+
+<td>38</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>NAME</td>
+
+<td>Central B</td>
+
+</tr>
+
+<tr>
+
+<td>DESCRIPTIO</td>
+
+<td>IV</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>STATION2</td>
+
+<td>Lake</td>
+
+</tr>
+
+<tr>
+
+<td>SAMP_ID</td>
+
+<td></td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>ID_STN</td>
+
+<td>-IV</td>
+
+</tr>
+
+<tr>
+
+<td>X</td>
+
+<td>314566</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>Y</td>
+
+<td>1591086</td>
+
+</tr>
+
+</table>
+
+</td>
+
+</tr>
+
+</table>
+
+</body>
+
+</html>]]></description>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<coordinates>121.2801916119584,14.38579866333303,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="ID_00039">
+			<name>West Bay Pasi</name>
+			<Snippet maxLines="0"></Snippet>
+			<description><![CDATA[<html xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+
+<head>
+
+<META http-equiv="Content-Type" content="text/html">
+
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+
+</head>
+
+<body style="margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;">
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px">
+
+<tr style="text-align:center;font-weight:bold;background:#9CBCE2">
+
+<td>West Bay</td>
+
+</tr>
+
+<tr>
+
+<td>
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px">
+
+<tr>
+
+<td>FID</td>
+
+<td>39</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>NAME</td>
+
+<td>West Bay</td>
+
+</tr>
+
+<tr>
+
+<td>DESCRIPTIO</td>
+
+<td>V</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>STATION2</td>
+
+<td>Lake</td>
+
+</tr>
+
+<tr>
+
+<td>SAMP_ID</td>
+
+<td></td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>ID_STN</td>
+
+<td>-V</td>
+
+</tr>
+
+<tr>
+
+<td>X</td>
+
+<td>299423</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>Y</td>
+
+<td>1602549</td>
+
+</tr>
+
+</table>
+
+</td>
+
+</tr>
+
+</table>
+
+</body>
+
+</html>]]></description>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<coordinates>121.1389376138005,14.48832578383795,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="ID_00040">
+			<name>South Bay</name>
+			<Snippet maxLines="0"></Snippet>
+			<description><![CDATA[<html xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+
+<head>
+
+<META http-equiv="Content-Type" content="text/html">
+
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+
+</head>
+
+<body style="margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;">
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px">
+
+<tr style="text-align:center;font-weight:bold;background:#9CBCE2">
+
+<td>South Bay</td>
+
+</tr>
+
+<tr>
+
+<td>
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px">
+
+<tr>
+
+<td>FID</td>
+
+<td>40</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>NAME</td>
+
+<td>South Bay</td>
+
+</tr>
+
+<tr>
+
+<td>DESCRIPTIO</td>
+
+<td>VIII</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>STATION2</td>
+
+<td>Lake</td>
+
+</tr>
+
+<tr>
+
+<td>SAMP_ID</td>
+
+<td></td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>ID_STN</td>
+
+<td>-VIII</td>
+
+</tr>
+
+<tr>
+
+<td>X</td>
+
+<td>309253</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>Y</td>
+
+<td>1570612</td>
+
+</tr>
+
+</table>
+
+</td>
+
+</tr>
+
+</table>
+
+</body>
+
+</html>]]></description>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<coordinates>121.2323788746232,14.20040268592468,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="ID_00041">
+			<name>San Pedro</name>
+			<Snippet maxLines="0"></Snippet>
+			<description><![CDATA[<html xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+
+<head>
+
+<META http-equiv="Content-Type" content="text/html">
+
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+
+</head>
+
+<body style="margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;">
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px">
+
+<tr style="text-align:center;font-weight:bold;background:#9CBCE2">
+
+<td>San Pedro</td>
+
+</tr>
+
+<tr>
+
+<td>
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px">
+
+<tr>
+
+<td>FID</td>
+
+<td>41</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>NAME</td>
+
+<td>San Pedro</td>
+
+</tr>
+
+<tr>
+
+<td>DESCRIPTIO</td>
+
+<td>XV</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>STATION2</td>
+
+<td>Lake</td>
+
+</tr>
+
+<tr>
+
+<td>SAMP_ID</td>
+
+<td></td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>ID_STN</td>
+
+<td>-XV</td>
+
+</tr>
+
+<tr>
+
+<td>X</td>
+
+<td>294512</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>Y</td>
+
+<td>1589526</td>
+
+</tr>
+
+</table>
+
+</td>
+
+</tr>
+
+</table>
+
+</body>
+
+</html>]]></description>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<coordinates>121.0943898432261,14.37027642856496,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="ID_00042">
+			<name>Sta. Rosa</name>
+			<Snippet maxLines="0"></Snippet>
+			<description><![CDATA[<html xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+
+<head>
+
+<META http-equiv="Content-Type" content="text/html">
+
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+
+</head>
+
+<body style="margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;">
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px">
+
+<tr style="text-align:center;font-weight:bold;background:#9CBCE2">
+
+<td>Sta. Rosa</td>
+
+</tr>
+
+<tr>
+
+<td>
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px">
+
+<tr>
+
+<td>FID</td>
+
+<td>42</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>NAME</td>
+
+<td>Sta. Rosa</td>
+
+</tr>
+
+<tr>
+
+<td>DESCRIPTIO</td>
+
+<td>XVI</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>STATION2</td>
+
+<td>Lake</td>
+
+</tr>
+
+<tr>
+
+<td>SAMP_ID</td>
+
+<td></td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>ID_STN</td>
+
+<td>-XVI</td>
+
+</tr>
+
+<tr>
+
+<td>X</td>
+
+<td>298720</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>Y</td>
+
+<td>1584524</td>
+
+</tr>
+
+</table>
+
+</td>
+
+</tr>
+
+</table>
+
+</body>
+
+</html>]]></description>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<coordinates>121.1337726020677,14.3253846027019,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="ID_00043">
+			<name>Angono</name>
+			<Snippet maxLines="0"></Snippet>
+			<description><![CDATA[<html xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+
+<head>
+
+<META http-equiv="Content-Type" content="text/html">
+
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+
+</head>
+
+<body style="margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;">
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px">
+
+<tr style="text-align:center;font-weight:bold;background:#9CBCE2">
+
+<td>Angono</td>
+
+</tr>
+
+<tr>
+
+<td>
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px">
+
+<tr>
+
+<td>FID</td>
+
+<td>43</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>NAME</td>
+
+<td>Angono</td>
+
+</tr>
+
+<tr>
+
+<td>DESCRIPTIO</td>
+
+<td>Angono</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>STATION2</td>
+
+<td>TR</td>
+
+</tr>
+
+<tr>
+
+<td>SAMP_ID</td>
+
+<td>27</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>ID_STN</td>
+
+<td>27-Angono</td>
+
+</tr>
+
+<tr>
+
+<td>X</td>
+
+<td>301761.031</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>Y</td>
+
+<td>1607526.875</td>
+
+</tr>
+
+</table>
+
+</td>
+
+</tr>
+
+</table>
+
+</body>
+
+</html>]]></description>
+			<styleUrl>#IconStyle00</styleUrl>
+			<Point>
+				<coordinates>121.1602515280537,14.53348121655504,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="ID_00044">
+			<name>Tanay Cuyambay</name>
+			<Snippet maxLines="0"></Snippet>
+			<description><![CDATA[<html xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+
+<head>
+
+<META http-equiv="Content-Type" content="text/html">
+
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+
+</head>
+
+<body style="margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;">
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px">
+
+<tr style="text-align:center;font-weight:bold;background:#9CBCE2">
+
+<td>Tanay US</td>
+
+</tr>
+
+<tr>
+
+<td>
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px">
+
+<tr>
+
+<td>FID</td>
+
+<td>44</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>NAME</td>
+
+<td>Tanay US</td>
+
+</tr>
+
+<tr>
+
+<td>DESCRIPTIO</td>
+
+<td>Tanay C</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>STATION2</td>
+
+<td></td>
+
+</tr>
+
+<tr>
+
+<td>SAMP_ID</td>
+
+<td>22c</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>ID_STN</td>
+
+<td>22c-Tanay C</td>
+
+</tr>
+
+<tr>
+
+<td>X</td>
+
+<td>320904.281</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>Y</td>
+
+<td>1610451</td>
+
+</tr>
+
+</table>
+
+</td>
+
+</tr>
+
+</table>
+
+</body>
+
+</html>]]></description>
+			<styleUrl>#IconStyle003</styleUrl>
+			<Point>
+				<coordinates>121.3376531551643,14.56123594492566,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>SMWC Pangil</name>
+			<LookAt>
+				<longitude>121.5076256896268</longitude>
+				<latitude>14.36832190078732</latitude>
+				<altitude>0</altitude>
+				<heading>-0.1298466488010646</heading>
+				<tilt>0</tilt>
+				<range>25066.73601141759</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#m_ylw-pushpin13</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>121.5,14.37027777777778,0</coordinates>
+			</Point>
+		</Placemark>
+	</Folder>
+</Document>
+</kml>

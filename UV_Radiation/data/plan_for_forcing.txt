@@ -1,0 +1,10 @@
+If this type of data is not available then I propose we can do the following for the baseline simulations:
+	1.	Take cloudiness from ERA5  (the meteorological model used in the hydrodynamics)
+	2.	Take wind speed from ERA5
+	3.	For solar radiation we have two options:
+		a.	Use the same as is used in the hydrodynamics (calculated based on latitude and cloudiness)
+		b.	Assign a sinusoid per month such that the daily number of hours spent above 120W/m2 is equivalent to that year’s daily average for that month as per the BSH data you sent
+	4.	For UV radiation we have three options
+		a.	Use the data you sent directly as given
+		b.	Assume a constant percentage of total visible light, which is taken from option 3a or 3b
+		c.	Make a time series that is a synthesis of uv radiation regressed against cloudiness
